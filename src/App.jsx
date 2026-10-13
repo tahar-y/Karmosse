@@ -263,8 +263,8 @@ function App() {
           <h2 className="section-title">سر البنة والطاقة في 3 مكونات فاخرة</h2>
           <div className="grid-3">
             {[
-              { img: tinImg, title: "تين مجفف (كرموس) منتقى بعناية" },
-              { img: mokasarateImg, title: "مكسرات فاخرة (لوز وجوز) للقرمشة" },
+              { img: tinImg, title: "تين مجفف منتقى بعناية" },
+              { img: mokasarateImg, title: "مكسرات فاخرة للقرمشة" },
               { img: ziteZitoneImg, title: "زيت زيتون بكر جزائري حر" }
             ].map((item, idx) => (
               <motion.div 
